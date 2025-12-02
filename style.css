@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f8ff;
+    color: #1a1a1a;
+}
+
+/* ===== Home Section ===== */
+header {
+    background: linear-gradient(to bottom right, #4f8cff, #1f62d1);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
+
+.tagline {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* ===== Sections ===== */
+section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #1f3a79;
+    margin-bottom: 25px;
+}
+
+/* ===== About Section ===== */
+#about p {
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+/* ===== Skills Section ===== */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skill-card {
+    background: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: 1px solid #cdd7f5;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    background: #e6eeff;
+    transform: scale(1.05);
+}
+
+/* ===== Projects Section ===== */
+.project-card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    border: 1px solid #cbd6f4;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card button {
+    padding: 8px 18px;
+    border: none;
+    background: #4f8cff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.project-card button:hover {
+    background: #1f62d1;
+}
+
+/* ===== Contact Section ===== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 1px solid #d0d7f2;
+    border-radius: 6px;
+}
+
+button[type="submit"] {
+    background: #1f62d1;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: #103b85;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #e8eeff;
+    margin-top: 30px;
+}
